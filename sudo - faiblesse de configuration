@@ -1,5 +1,5 @@
 En arrivant sur le challenge, un fichier readme.md et deux dossiers, ch1cracked et notes sont visibles.
-Impossible de lire le contenu des dossiers, mais le fichier readme.md nous apprends que :
+Impossible de lire le contenu des dossiers, mais le fichier readme.md nous apprend que :
 
 ================================================================================================================================
 Vous devez réussir à lire le fichier .passwd situé dans le chemin suivant :
@@ -8,6 +8,7 @@ Vous devez réussir à lire le fichier .passwd situé dans le chemin suivant :
 You have to read the .passwd located in the following PATH :
 /challenge/app-script/ch1/ch1cracked/
 ================================================================================================================================
+
 
 La commande sudo -l permet de lister les commandes autorisées par sudo pour l'utilisateur
 
@@ -21,6 +22,7 @@ Matching Defaults entries for app-script-ch1 on challenge02:
 User app-script-ch1 may run the following commands on challenge02:
     (app-script-ch1-cracked) /bin/cat /challenge/app-script/ch1/notes/*
 ================================================================================================================================
+
 
 On apprend que la commande cat est utilisable, uniquement pour le path " /challenge/app-script/ch1/notes/* ", il est aussi necessaire 
 de passer par l'user "app-script-ch1-cracked" pour que la commande en sudo soit autorisée :
@@ -37,6 +39,7 @@ Une todo-list apparait :
 - Change IP routing
 - Beef up the fw
 ================================================================================================================================
+
 
 La documentation fournie avec le challenge averti sur le danger des wildcards pour la configuration du sudo (voir p.36-37)
 https://repository.root-me.org/Administration/Unix/EN%20-%20sudo%20you%20are%20doing%20it%20wrong.pdf
