@@ -1,0 +1,15 @@
+L'énoncé est simple, il faut décoder la chaine suivante : 
+
+4C6520666C6167206465206365206368616C6C656E6765206573743A203261633337363438316165353436636436383964356239313237356433323465
+
+Il est possible de remarquer l'hexadécimal, mais un premier passage de la chaine sur cyberchef.io avec l'option magic permet de confirmer cela
+
+https://cyberchef.io/#recipe=Magic(3,false,false,'')
+
+Cyberchef détecte effectivement l'héxadécimal et donne en résultat : 
+
+================================================================================================================================
+
+Le flag de ce challenge est: ****************************
+
+================================================================================================================================
