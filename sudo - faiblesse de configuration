@@ -1,3 +1,14 @@
+En arrivant sur le challenge, un fichier readme.md et deux dossiers, ch1cracked et notes sont visibles.
+Impossible de lire le contenu des dossiers, mais le fichier readme.md nous apprends que :
+
+================================================================================================================================
+Vous devez réussir à lire le fichier .passwd situé dans le chemin suivant :
+/challenge/app-script/ch1/ch1cracked/
+
+You have to read the .passwd located in the following PATH :
+/challenge/app-script/ch1/ch1cracked/
+================================================================================================================================
+
 La commande sudo -l permet de lister les commandes autorisées par sudo pour l'utilisateur
 
 Il est affiché :
